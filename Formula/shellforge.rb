@@ -4,28 +4,28 @@
 class Shellforge < Formula
   desc "Local governed agent runtime — wraps Ollama + AgentGuard governance"
   homepage "https://github.com/AgentGuardHQ/shellforge"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/AgentGuardHQ/shellforge/releases/download/v0.4.0/shellforge_0.4.0_darwin_arm64.tar.gz"
-      sha256 "a084ce4f79e38122fdff8c6223ac74e78a96a8a5d3b84edfb1e7a419fabf368f"
+      url "https://github.com/AgentGuardHQ/shellforge/releases/download/v0.4.1/shellforge_0.4.1_darwin_arm64.tar.gz"
+      sha256 "a9504eb89ae72af4a41209c299bae71c89a754758b2659af5553ef7b65028ee8"
     end
     on_intel do
-      url "https://github.com/AgentGuardHQ/shellforge/releases/download/v0.4.0/shellforge_0.4.0_darwin_amd64.tar.gz"
-      sha256 "ce0d07bd329fb550aefb158e14c44c2a80504466e725067879a82f6479918812"
+      url "https://github.com/AgentGuardHQ/shellforge/releases/download/v0.4.1/shellforge_0.4.1_darwin_amd64.tar.gz"
+      sha256 "d4e17b6250b23ca902bbd96442c4592b7ade12b87efe35e20a4fa894f28828d1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AgentGuardHQ/shellforge/releases/download/v0.4.0/shellforge_0.4.0_linux_arm64.tar.gz"
-      sha256 "d754b365ee38ca1758ed494ead9468430a48b98116161dff8c461d7a53f757db"
+      url "https://github.com/AgentGuardHQ/shellforge/releases/download/v0.4.1/shellforge_0.4.1_linux_arm64.tar.gz"
+      sha256 "223664cfc4ee938348f5b9529da243f8137fd0fefc3789c37bac01b3923302f4"
     end
     on_intel do
-      url "https://github.com/AgentGuardHQ/shellforge/releases/download/v0.4.0/shellforge_0.4.0_linux_amd64.tar.gz"
-      sha256 "9e5986af3c869f325c87154f05ca76eb30f2e4061c03b60a0ec72cd4a9142ddc"
+      url "https://github.com/AgentGuardHQ/shellforge/releases/download/v0.4.1/shellforge_0.4.1_linux_amd64.tar.gz"
+      sha256 "cbc8854b4bd78b7440bc359d03c7301ce110e88a7c7f99d2c3e0b6ce34e1e92e"
     end
   end
 
